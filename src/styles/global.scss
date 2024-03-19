@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100&family=DM+Serif+Display:ital@0;1&family=EB+Garamond:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./mixin.scss";
+@import "./header.scss";
+@import "./banner.scss";
+@import "./default.scss";
+@import "./reactSelect.scss";
+@import "./trusted.scss";
+@import "./blog.scss";
+@import "./contactus.scss";
+@import "./aboutus.scss";
+.scroll-to-top {
+  background: yellow !important
+  ;
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important;
+  padding-left: 15px !important;
+}

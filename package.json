@@ -1,0 +1,47 @@
+{
+  "name": "job-vista",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "start": "next start -p 4000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@uidotdev/usehooks": "^2.3.1",
+    "git": "^0.1.5",
+    "google-map-react": "^2.2.1",
+    "lodash": "^4.17.21",
+    "map-obj": "^5.0.2",
+    "multer": "^1.4.5-lts.1",
+    "next": "latest",
+    "nodemailer": "^6.9.8",
+    "react": "latest",
+    "react-countup": "^6.5.0",
+    "react-dom": "latest",
+    "react-scroll-to-top": "^3.0.0",
+    "react-scroll-up": "^1.4.0",
+    "react-select": "^5.7.7",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^10.0.3",
+    "sass": "^1.68.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-slick": "^0.23.13",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}

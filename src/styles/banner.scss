@@ -1,0 +1,77 @@
+.banner_section {
+  height: 800px;
+  background-image: url("/img/banner_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.jobBackground {
+  height: 800px;
+  background-color: #e9ebee;
+  background-image: none;
+  background-image: url("/img/jobbg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner_field {
+  height: 38px;
+  width: 100%;
+  color: #000;
+  font-weight: 600;
+  &:focus {
+    outline: none;
+  }
+  &::placeholder {
+    color: #000;
+  }
+}
+
+.banner_four {
+  animation: jumpFour 5s infinite;
+}
+
+.banner_two {
+  animation: jumpTwo 5s infinite;
+}
+
+.banner_three {
+  animation: jumpThree 5s infinite;
+}
+
+@keyframes jumpFour {
+  0% {
+    transform: translateZ(0);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0);
+  }
+  100% {
+    transform: translateZ(0);
+  }
+}
+
+@keyframes jumpTwo {
+  0% {
+    transform: translateZ(0);
+  }
+  40% {
+    transform: translate3d(0, 20px, 0);
+  }
+  100% {
+    transform: translateZ(0);
+  }
+}
+
+@keyframes jumpThree {
+  0% {
+    transform: translateZ(0);
+  }
+  40% {
+    transform: translate3d(0, -20px, 0);
+  }
+  100% {
+    transform: translateZ(0);
+  }
+}

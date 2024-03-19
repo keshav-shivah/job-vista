@@ -1,0 +1,11 @@
+.register_btn {
+  &:hover {
+    i {
+      transform: translateX(2px);
+    }
+  }
+}
+
+.header_shadow {
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
